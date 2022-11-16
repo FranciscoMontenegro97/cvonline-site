@@ -1,0 +1,734 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 140vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #eaeaea;
+    overflow-x: hidden;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Pagina de Home*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*Cabecera del Logo y la barra de Navegacion*/
+.ContenedorCabecera{
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    background: #252a34;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.ContenedorInterno{
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+nav{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}nav a{
+    text-decoration: none;
+    font-size: 3vh;
+        color: #eaeaea;
+    }nav a:hover{
+        color: mediumslateblue;   
+    } 
+.NavSuperior{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form{
+    width: 50%;
+    position: relative;
+    }form svg{
+        position: absolute;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+.Logo{
+    width: 250px;
+    height: 250px;
+    }.Logo img{
+        width: 250px;
+        height: 250px;
+    }  
+input{
+    border: none;
+    outline: none;
+} 
+#Buscar{ 
+    width: 100%;
+    height: 35px;
+    padding-left: 10%;
+} 
+#BotonBuscar{
+    width: 25%;
+    height: 37px;
+}
+.LogIn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#Carrito{
+    padding-left: 8%;
+    border-left: 2px solid #eaeaea;
+}
+.NavInferior{
+    width: 60%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Ingreso a{
+    text-decoration: none;
+    color: #eaeaea;
+    }.Ingreso a:hover{
+        color: mediumslateblue;
+    }.Ingreso a:visited{
+        color: #eaeaea; 
+    }.Ingreso ul li a:hover{
+        background: #3d414a;
+        color: mediumslateblue;  
+    }  
+.ul{
+    background: #3d414a;
+}
+     
+/*Seccion medio, desde el slider hasta las redes sociales y la barra de correo */
+    
+.ContieneHome{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.BackSlider{
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.SocialContainer{
+    width: 100%;
+    height: 120vh;
+    background: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.Colombo{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    }.Colombo h2{
+        text-align: center;
+        font-size: 10vh;
+    }.Colombo p{
+        text-align: center;
+        font-size: 3vh;
+    }
+.AlgunosProductos{
+    width: 100%;
+    height: 35vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Circle{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 25%;
+    height: 100%;
+}
+
+.Laja{
+    width: 100%;
+    height: 100%;
+}
+.Colombo1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Texto{
+    color: #625772;
+}
+.Redes{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Social{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    
+    }.Social a{
+        text-decoration: none;
+        color: #625772;
+    }
+.Semicircle{
+    width: 50px;
+    height: 50px;
+    background: #eaeaea;
+    border-radius: 20%;
+    overflow: hidden;
+    }.Semicircle img{
+        width: 8%;
+        height: auto;
+    }
+.BarraCorreo{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    
+}
+.Envio{
+    width: 100%;
+    height: 8vh;
+    background: #3d414a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    font-size: 3vh;
+    color: #eaeaea;
+}
+#email{
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+/*Footer*/
+
+footer{
+    background: black;
+    color: blanchedalmond;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }p{
+        margin: 0;
+    }
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Pagina de prodcutos*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.ContenedorProductos{
+    height: 185vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Productos{
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Productoscontainer{
+    width: 90%;
+    height: 170vh;
+    background: #eaeaea;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Stock{
+    width: 15%;
+    height: 50vh;
+    }.Stock:hover{
+        width: 15.5%;
+        border: 1px solid grey;
+        box-shadow: 0em 0.5em 0.5em 0.5em #252a34;
+        transition: all .1s;
+        transform: scale(1.18);
+    
+    }.Stock img{
+        top: 0px;
+        width: 100%;
+        height: 60%;
+    }
+.TagContainer{
+    top: 0;
+    left: 0;
+    display: block;
+    width: 35%;
+    font-size: 2vh;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.Tag{
+    position: absolute;
+    z-index: 1;
+    background-color: #D92121;
+}
+.Brand{
+    margin-left: 1vh;
+    font-size: 2vh;
+    color: #525252;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+h3{
+    margin: 0;
+    margin-left: 1vh;
+    height: 7.5vh;
+    font-size: 2.5vh;
+    color: #000000;
+    text-transform: uppercase; 
+}
+.Precio{
+    margin-left: 1vh;
+    width: auto;
+    font-size: 3.5vh;
+    font-weight: bold;
+    color: #00acdd;
+    float: left;
+}
+.Precio_antes{
+    width: auto;
+    max-width: 12vh;
+    height: 3.2vh;
+    font-size: 1.8vh;
+    color: #202020;
+    float: left;
+    margin-left: 1vh;
+    margin-top: 1.8vh;
+    text-transform: uppercase;
+    
+    
+    }.Precio_antes span{
+        text-decoration: line-through;
+    }
+.Cuotas{
+    margin-left: 1vh;
+    clear: both;
+    width: auto;
+    font-size: 2vh;
+    color: #525252;
+    float: left;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Sector de cada prodcuto publicado*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.ContieneMercaderia{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.AsideMercaderia{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ImagenPrincipal{
+    border: 2px solid #252a34;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 95%;
+    height: 80vh;
+    }.ImagenPrincipal img{
+        width: 100%;
+        height: 100%;
+    }
+.ImgagenInferior img{
+    width: 2%;
+    height: auto;
+}
+.MainMercaderia{
+    width: 20%;
+    height: 80vh;
+}
+article h3{
+    font-size: 4vh;
+    }article p{
+        color: rgb(155, 150, 150);
+        margin-left: 6px;
+    }
+.PrecioProducto{
+    margin-bottom: 35px;
+    width: auto;
+    color: #00acdd;
+    }.PrecioProducto h3{
+        font-size: 8vh;
+        color: #00acdd;
+    }.PrecioProducto p{
+        margin-left: 8px;
+        color: #00acdd;
+    }
+.BotonesCompra{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.BotonCompra{
+    text-decoration: none;
+    background: #00acdd;
+    color: #eaeaea;
+    padding: 5% 0;
+    width: 40%;
+    height: 8vh;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 2.5vh;
+    cursor: pointer;
+    }.BotonCompra:hover{
+        background:#20cfff;
+        color: linen;
+    }
+.BotonCarrito{
+    text-decoration: none;
+    background: #00acdd;
+    color: #eaeaea;
+    padding: 1% 0;
+    width: 50%;
+    height: 8vh;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 2.2vh;
+    cursor: pointer;
+    }.BotonCarrito:hover{
+        background:#20cfff;
+        color: linen;
+    }
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Pagina de contacto*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.ContenedorContacto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.ArticuloSuperior{ 
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.ContieneDirecciones{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Info{
+    height: 70vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }.Info h3{
+        height: 5vh;
+        
+    }.Info p{
+        height: 5vh;
+    }
+.InfoCirc{
+    border-radius: 50%;
+    background: #3d414a;
+    width: 50%;
+    height: 30%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }.InfoCirc svg{
+        color: #eaeaea;
+    }
+.ContieneInput{
+    color: black;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    }.ContieneInput label{
+        color: black;
+    }
+.ArticuloInferior{
+    width: 80%;
+    height: 55vh;
+}
+.ContieneComentario{
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.ContieneMiniComentario{
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }.ContieneMiniComentario h2{
+        margin-bottom: 30px;
+    }
+.ContieneMiniDatos{
+    width: 110%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.LargoDeInput{
+    width: 55%;
+}
+#AreaDeTexto{
+    width: 55%;
+    border: none;
+    text-decoration: none;
+    resize: none;
+    outline: none;
+}
+.BotonEnviar{
+    width: 110%;
+    display: flex;
+    align-self: center;
+    flex-direction: row-reverse;
+}
+button{
+    border: none;
+    height: 6vh;
+    background: #252a34;
+    color: #ccd7e3;
+    border-radius: 5px;
+    }button:hover{
+        background: #3b4455;
+    }
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Pagina de Carrito*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.ContainerCarrito{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }.Carrito img{
+        width: 180px;
+        height: 180px;
+    }
+.Botones{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Pagina de Resgistro*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.ContenedorDeRegistro{
+    height: 110vh;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    }.ContenedorDeRegistro h2{
+        margin-bottom: 10px;
+        font-size: 6vh;
+    }
+hr{
+    width: 60%;
+    border: 1vh solid #a9b3be;
+}
+.ContieneFormulario{
+    height: 82vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fieldset{
+    margin-bottom: 15px;
+}
+.SpanRegistro{
+    color: #202020;
+    font-size: 2.3vh;
+}
+.NombreYape{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ContieneInputDeRegistro{
+    width: 81%;
+}
+.InputDeNombreYApellido{
+    width: 100%;
+    background: #f5f8fa;
+    border: 1px solid #ccd7e3;
+    border-radius: 10px;
+    padding: 2%;
+}
+.Correo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    }.ContienElRegistroEmail{
+        width: 100%;
+    }
+
+#RegistroEmail{
+    width: 100%;
+    background: #f5f8fa;
+    border: 1px solid #ccd7e3;
+    border-radius: 10px;
+    padding: 1%;
+}
+.Localidad{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ContienElRegistroNombre{
+    width: 45%;
+}
+.ContienElRegistroLocalidad{
+    width: 45%;
+}
+#ProvinciaSelect{
+    width: 100%;
+    background: #f5f8fa;
+    border: 1px solid #ccd7e3;
+    border-radius: 10px;
+    padding: 2%;
+}
+.ContenedorBoton{
+    margin-top: 20px;
+}
+#BotonRegistro{
+    height: 6vh;
+    background: #252a34;
+    color: #ccd7e3;
+    border-radius: 5px;
+}#BotonRegistro:hover{
+    background: #3b4455;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Pagina de Ingreso de Usuario*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.ContenedorDeIngreso{
+    height: 95vh;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    }.ContenedorDeIngreso h2{
+        margin-bottom: 10px;
+        font-size: 6vh;
+        color: black;
+    }
+.IngresoAlineado{
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.EmailYContra{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.RegistroInput{
+    background: #f5f8fa;
+    border: 1px solid #ccd7e3;
+    border-radius: 10px;
+    padding: 1%;
+}

@@ -1,0 +1,825 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Pantallas Grandes -> 1440px - 2560px */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width:1440px) and (max-width:2560px){
+   
+    /*/////////////////////*/
+    /* Pagina de Registro */
+    /*///////////////////*/
+    .BodyRegistro{
+        height: 70vh;
+    }
+    .ContenedorDeRegistro{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .ContieneFormulario{
+        width: 40%;
+        height: 70vh;
+        font-size: 1.9vh;
+    }
+    .ContienElRegistroContrasenia2 label .SpanRegistro{
+        width: 100%;
+        font-size: 2.099vh;
+        }
+
+    #ProvinciaSelect{
+        width: 100%;
+    }
+    /*/////////////////////*/
+    /* Pagina de Ingreso */
+    /*///////////////////*/
+    
+    .ContenedorDeIngreso{
+        width: 100%;
+        height: 110vh;
+        display: flex;
+        justify-content: center;
+    }
+    .IngresoAlineado{
+        width: 35%;
+    }
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Pantallas Medias(Laptops) -> 1280px - 1439px */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width:1280px) and (max-width:1439px){
+
+    /*/////////////////////*/
+    /* Pagina de Ingreso */
+    /*///////////////////*/
+    
+    .ContenedorDeIngreso{
+        width: 100%;
+        height: 110vh;
+        display: flex;
+        justify-content: center;
+    }
+    .EmailYContra{
+        width: 85%;
+    }
+    /*/////////////////////*/
+    /* Pagina de Home */
+    /*///////////////////*/
+    .InfoCirc{
+        width: 48%;
+        height: 25%;
+    }
+    /*/////////////////////*/
+    /* Pagina de Registro */
+    .BodyRegistro{
+        height: 70vh;
+    }
+    .ContenedorDeRegistro{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .ContieneFormulario{
+        width: 50%;
+        height: 78vh;
+        font-size: 1.9vh;
+    }
+    .ContienElRegistroContrasenia2 label .SpanRegistro{
+        width: 100%;
+        font-size: 2.099vh;
+        }
+
+    #ProvinciaSelect{
+        width: 100%;
+    }
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Pantallas Medias(Tablets) -> 910px - 1279px */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width:910px) and (max-width:1279px){
+
+    body{
+        height: 100vh;
+    }
+    /*//////////////////////*/
+    /* Cabecera */
+    .ContenedorCabecera{
+        width: 100%;
+        height: 25vh;
+    }
+    .ContenedorInterno{
+        width: 100%;
+        height: 10vh;
+    }
+    nav{
+        width: 100%;
+        height: 10vh;
+    }
+    .NavInferior a{
+        font-size: 2vh;
+    }
+    /*//////////////////////*/
+    /*Pagina de Home*/
+    .TituloColombo h2{
+        font-size: 5vh;
+    }
+    .TituloColombo p{
+        font-size: 2vh;
+    }
+    .AlgunosProductos{
+        width:100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Circle{
+        width: 80%;
+        height: 80%;
+    }
+    .Envio label{
+        font-size: 2vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Contacto */
+    .ContieneContacto{
+        height: auto;
+    }
+    .ContieneDirecciones{
+        width: 100%;
+    }
+    .Info{
+        width: 100%;
+    }
+    .Info h3{
+        font-size: 2vh;
+    }
+    .Info p{
+        
+        font-size: 1vh;
+    }
+    .InfoCirc{
+        width: 50%;
+        height: 15%;
+    }
+    .ContieneMiniComentario h2{
+        width: 140%;
+        font-size: 2.5vh;
+        text-align: center;
+    }
+    .ContieneMiniComentario label{
+        font-size: 1.5vh;
+    }
+    Button{
+        height: 4vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Registro */
+    .ContenedorDeRegistro{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ContenedorDeRegistro h2{
+        font-size: 4vh;
+    }
+    .ContieneFormulario{
+        width: 100%;
+        height: 65vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Ingreso */
+    .ContenedorDeIngreso{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ContenedorDeIngreso h2{
+        font-size: 4vh;
+    }
+    .IngresoAlineado{
+        width: 60%;
+    }
+    /*//////////////////////*/
+    /* Pagina de Productos */
+    .Stock{
+        text-align: start;
+    }
+    .Stock img{
+        width: 100%;
+        height: 30%;
+    }.Stock h3{
+        font-size: 2vh;
+    }
+    .Precio{
+        font-size: 2vh;
+    }
+    .Precio_antes{
+        font-size: 0.8vh;
+    }
+    .Cuotas{
+        font-size: 1vh;
+    }
+    .Tag{
+        font-size: 1vh;
+    }
+    .Brand{
+        font-size: 1vh;
+    }
+    /*//////////////////////*/
+    /* Producto Inidividual */
+    article h3{
+        font-size: 2.5vh;
+    }
+    .PrecioProducto h3{
+        font-size: 4vh;
+    }
+    .BotonCompra{
+        height: 5vh;
+        font-size: 1vh;
+    }
+    .BotonCarrito{
+        height: 5vh;
+        font-size: 1vh;
+    }
+    .ImagenPrincipal{
+        height: 40vh;
+    }
+    .MainMercaderia{
+        height: 45vh;
+    }
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Pantallas Celular-Medio -> 600px - 909px */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width:600px) and (max-width:909px){
+    body{
+        height: auto;
+    }
+    /*//////////////////////*/
+    /* Cabecera */
+    .ContenedorCabecera{
+        width: 100%;
+        height: 25vh;
+    }
+    .ContenedorInterno{
+        width: 100%;
+        height: 10vh;
+    }
+    nav{
+        width: 100%;
+        height: 10vh;
+    }
+    .NavSuperior{
+        width: 90%;
+    }
+    .Logo{
+        width: 200px;
+        height: 200px;
+    }.Logo img{
+        width: 200px;
+        height: 200px;
+    }
+    #Buscar{
+        padding-left: 15%;
+    }
+    .NavInferior a{
+        font-size: 2vh;
+    }
+    /*//////////////////////*/
+    /*Pagina de Home*/
+    .TituloColombo h2{
+        font-size: 4vh;
+    }
+    .TituloColombo p{
+        font-size: 1.8vh;
+    }
+    .AlgunosProductos{
+        width:85%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Circle{
+        width: 25%;
+        height: 65%;
+    }
+    .Envio label{
+        font-size: 1.7vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Contacto */
+    .ContieneContacto{
+        height: auto;
+    }
+    .ContieneDirecciones{
+        width: 100%;
+    }
+    .Info{
+        width: 100%;
+    }
+    .Info h3{
+        font-size: 2vh;
+    }
+    .Info p{
+        
+        font-size: 1vh;
+    }
+    .InfoCirc{
+        width: 70%;
+        height: 18%;
+    }
+    .ArticuloInferior{
+        width: 100%;
+    }
+    .ContieneComentario{
+        width: 100%;
+    }
+    .ContieneMiniComentario{
+        width: 60%;
+    }
+    .ContieneMiniComentario h2{
+        width: 140%;
+        font-size: 2.9vh;
+        text-align: center;
+    }
+    .ContieneMiniComentario label{
+        font-size: 1.8vh;
+    }
+    Button{
+        height: 3vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Registro */
+    .ContenedorDeRegistro{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ContenedorDeRegistro h2{
+        font-size: 4vh;
+    }
+    .ContieneFormulario{
+        width: 100%;
+        height: 65vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Ingreso */
+    .ContenedorDeIngreso{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ContenedorDeIngreso h2{
+        font-size: 4vh;
+    }
+    .IngresoAlineado{
+        width: 90%;
+    }
+    /*//////////////////////*/
+    /* Pagina de Productos */
+    .Stock{
+        text-align: start;
+    }
+    .Stock img{
+        width: 100%;
+        height: 30%;
+    }.Stock h3{
+        font-size: 2vh;
+    }
+    .Precio{
+        font-size: 2vh;
+    }
+    .Precio_antes{
+        font-size: 0.8vh;
+    }
+    .Cuotas{
+        font-size: 1vh;
+    }
+    .Tag{
+        font-size: 1vh;
+    }
+    .Brand{
+        font-size: 1vh;
+    }
+    /*//////////////////////*/
+    /* Producto Inidividual */
+    article h3{
+        font-size: 2.5vh;
+    }
+    .PrecioProducto h3{
+        font-size: 4vh;
+    }
+    .BotonCompra{
+        height: 5vh;
+        font-size: 1vh;
+    }
+    .BotonCarrito{
+        height: 5vh;
+        font-size: 1vh;
+    }
+    .ImagenPrincipal{
+        height: 40vh;
+    }
+    .MainMercaderia{
+        height: 45vh;
+    }
+}
+@media screen and (min-width:400px) and (max-width:599px){
+    body{
+        height: 120vh;
+    }
+    /*//////////////////////*/
+    /* Cabecera */
+    .ContenedorCabecera{
+        width: 100%;
+        height: 25vh;
+    }
+    .ContenedorInterno{
+        width: 100%;
+        height: 10vh;
+    }
+    nav{
+        width: 100%;
+        height: 10vh;
+    }
+    .NavSuperior{
+        width: 90%;
+    }.NavSuperior form{
+        display: none;
+    }
+    .Logo{
+        width: 200px;
+        height: 200px;
+    }.Logo img{
+        width: 200px;
+        height: 200px;
+    }
+    #Buscar{
+        display: none;
+        padding-left: 15%;
+    }
+    .NavInferior a{
+        font-size: 1.5vh;
+    }
+    /*//////////////////////*/
+    /*Pagina de Home*/
+    .TituloColombo h2{
+        font-size: 4vh;
+    }
+    .TituloColombo p{
+        font-size: 1.8vh;
+    }
+    .AlgunosProductos{
+        width:85%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Circle{
+        width: 25%;
+        height: 65%;
+    }
+    .Envio label{
+        font-size: 1vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Contacto */
+    .ContieneDirecciones{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Info{
+        margin-top: 5px;
+        width: 100%;
+        height: 20vh;
+    }
+    .Info h3{
+        font-size: 1.5vh;
+    }
+    .Info p{
+        
+        font-size: 1vh;
+    }
+    .InfoCirc{
+        width: 40%;
+        height: 100%;
+    }
+    .ArticuloInferior{
+        width: 100%;
+    }
+    .ContieneComentario{
+        width: 100%;
+    }
+    .ContieneMiniComentario{
+        width: 70%;
+    }
+    .ContieneMiniComentario h2{
+        width: 140%;
+        font-size: 2vh;
+        text-align: center;
+    }
+    .ContieneMiniComentario label{
+        font-size: 1.4vh;
+    }
+    Button{
+        height: 3vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Registro */
+    .ContenedorDeRegistro{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ContenedorDeRegistro h2{
+        font-size: 3vh;
+    }
+    .ContieneFormulario{
+        width: 100%;
+        height: 65vh;
+    }
+    .SpanRegistro{
+        font-size: 1.5vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Ingreso */
+    .ContenedorDeIngreso{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ContenedorDeIngreso h2{
+        font-size: 3vh;
+    }
+    .IngresoAlineado{
+        width: 100%;
+    }
+    .RegistroInput{
+        width: 90%;
+    }
+    /*//////////////////////*/
+    /* Pagina de Productos */
+    .Stock{
+        text-align: start;
+    }
+    .Stock img{
+        width: 100%;
+        height: 30%;
+    }.Stock h3{
+        font-size: 2vh;
+    }
+    .Precio{
+        font-size: 2vh;
+    }
+    .Precio_antes{
+        font-size: 0.8vh;
+    }
+    .Cuotas{
+        font-size: 1vh;
+    }
+    .Tag{
+        font-size: 1vh;
+    }
+    .Brand{
+        font-size: 1vh;
+    }
+    /*//////////////////////*/
+    /* Producto Inidividual */
+    article h3{
+        font-size: 2.5vh;
+    }
+    .PrecioProducto h3{
+        font-size: 4vh;
+    }
+    .BotonCompra{
+        height: 5vh;
+        font-size: 1vh;
+    }
+    .BotonCarrito{
+        height: 5vh;
+        font-size: 1vh;
+    }
+    .ImagenPrincipal{
+        height: 40vh;
+    }
+    .MainMercaderia{
+        height: 45vh;
+    }
+}
+@media screen and (min-width:100px) and (max-width:399px){
+    body{
+        height: 120vh;
+    }
+    /*//////////////////////*/
+    /* Cabecera */
+    .ContenedorCabecera{
+        width: 100%;
+        height: 25vh;
+    }
+    .ContenedorInterno{
+        width: 100%;
+        height: 10vh;
+    }
+    nav{
+        width: 100%;
+        height: 10vh;
+    }
+    .NavSuperior{
+        width: 90%;
+    }.NavSuperior form{
+        display: none;
+    }
+    .Logo{
+        width: 200px;
+        height: 200px;
+    }.Logo img{
+        width: 200px;
+        height: 200px;
+    }
+    #Buscar{
+        display: none;
+        padding-left: 15%;
+    }
+    .NavInferior{
+        width: 80%;
+    }
+    .NavInferior a{
+        font-size: 1.5vh;
+    }
+    /*//////////////////////*/
+    /*Pagina de Home*/
+    .TituloColombo h2{
+        font-size: 4vh;
+    }
+    .TituloColombo p{
+        font-size: 1.8vh;
+    }
+    .AlgunosProductos{
+        width:85%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Circle{
+        width: 25%;
+        height: 65%;
+    }
+    .Envio label{
+        font-size: 1vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Contacto */
+    .ContieneDirecciones{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Info{
+        margin-top: 5px;
+        width: 100%;
+        height: 20vh;
+    }
+    .Info h3{
+        font-size: 1.5vh;
+    }
+    .Info p{
+        
+        font-size: 1vh;
+    }
+    .InfoCirc{
+        width: 40%;
+        height: 100%;
+    }
+    .ArticuloInferior{
+        width: 100%;
+    }
+    .ContieneComentario{
+        width: 100%;
+    }
+    .ContieneMiniComentario{
+        width: 75%;
+    }
+    .ContieneMiniComentario h2{
+        width: 140%;
+        font-size: 1.5vh;
+        text-align: center;
+    }
+    .ContieneMiniComentario label{
+        font-size: 1.2vh;
+    }
+    Button{
+        height: 3vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Registro */
+    .ContenedorDeRegistro{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ContenedorDeRegistro h2{
+        font-size: 2vh;
+    }
+    .ContieneFormulario{
+        width: 100%;
+        height: 75vh;
+    }
+    .SpanRegistro{
+        font-size: 1vh;
+    }
+    /*//////////////////////*/
+    /* Pagina de Ingreso */
+    .ContenedorDeIngreso{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ContenedorDeIngreso h2{
+        font-size: 2vh;
+    }
+    .IngresoAlineado{
+        width: 100%;
+    }
+    .RegistroInput{
+        width: 90%;
+    }
+    /*//////////////////////*/
+    /* Pagina de Productos */
+    .Stock{
+        text-align: start;
+    }
+    .Stock img{
+        width: 100%;
+        height: 30%;
+    }.Stock h3{
+        font-size: 2vh;
+    }
+    .Precio{
+        font-size: 2vh;
+    }
+    .Precio_antes{
+        font-size: 0.8vh;
+    }
+    .Cuotas{
+        font-size: 1vh;
+    }
+    .Tag{
+        font-size: 1vh;
+    }
+    .Brand{
+        font-size: 1vh;
+    }
+    /*//////////////////////*/
+    /* Producto Inidividual */
+    .ContieneMercaderia{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .AsideMercaderia{
+        width: 80%;
+        height: 20vh;
+    }
+    .MainMercaderia{
+        width: 80%;
+    }
+    article h3{
+        height: 2vh;
+        font-size: 2.2vh;
+    }
+    .PrecioProducto h3{
+        font-size: 4vh;
+    }
+    .BotonCompra{
+        height: 5vh;
+        font-size: 1vh;
+    }
+    .BotonCarrito{
+        height: 5vh;
+        font-size: 1vh;
+    }
+    .ImagenPrincipal{
+        height: 40vh;
+    }
+    .MainMercaderia{
+        height: 45vh;
+    }
+}
