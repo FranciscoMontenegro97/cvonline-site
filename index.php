@@ -179,22 +179,22 @@ if (isset($_POST["form"])){
                 </aside>
             </a>
             <a href="#trabajo-2" class="portfolio-card">
-                <img src="assets/altokelobo.png" alt="Trabajo 2">
+                <img src="assets/surfmedia.png" alt="Trabajo 2">
                 <aside class="portfolio-card-info">
                     <div>
-                        <h3>KTH Gaming</h3>
-                        <p>Katharsis Gaming es un equipo de ESports donde compiten en diversos juegos de manera profesional.</p>
-                        <p>Realice su sitio web utilizando NodeJS, este mismo cuenta con un registro e ingreso de usuario con diversos parametros.</p>
+                        <h3>Surfmedia Laravel9 Ecommerce</h3>
+                        <p>Surfmedia es una tienda de ropa online, donde se puede manipular en stock, las ofertas y resaltar diversos productos con una cuenta de administrador, todo esto desde el sitio sin necesidad de ingresar de forma directa a la DB.</p>
+                        <p>Realice el sitio utilizando Laravel9 siendo este el primero de muchos proyectos que planeo seguir realizando a futuro.</p>
                     </div>
                 </aside>
             </a>
             <a href="#trabajo-3" class="portfolio-card">
-                <img src="assets/leopold.png" alt="Trabajo 3">
+                <img src="assets/react-php.jpg" alt="Trabajo 3">
                 <aside class="portfolio-card-info">
                     <div>
-                        <h3>Leopold Social Network</h3>
-                        <p>Leopold busca ser una red social similar a Twitter y Mastodon</p>
-                        <p>Este sitio lo realice con NodeJS, por el momento solo cuenta con una interface que consiste en registrar y dar ingreso a los usuarios</p>
+                        <h3>API Rest con React</h3>
+                        <p>Este sitio es un crud de un panel de adminitrador de productos.</p>
+                        <p>Esta realizado con una API Rest y con React.</p>
                     </div>
                 </aside>
             </a>
@@ -236,19 +236,19 @@ if (isset($_POST["form"])){
             </svg>
         </a>
         <article class="portfolio-modal">
-            <img src="assets/altokelobo.png" alt="Trabajo 2">
+            <img src="assets/surfmedia-minilogo.png" alt="Trabajo 2">
             <div class="portfolio-info">
-            <h3>KTH Gaming</h3>
-            <p>El sitio KTH Gaming lo realice con Node.Js y con base de datos MySQL fue el proyecto con el cual termine el curso de Proffesional Webmaster de la UTN-BA.</p>
+            <h3>Surfmedia Ecommerce Laravel9</h3>
+            <p>Surfmedia es un ecommerce realizado con Laravel9.</p>
             <aside class="portfolio-details">
                 <small><b>CLIENTE:</b></small>
-                <small>Cliente: UTN-BA</small>
+                <small>Cliente: Poryecto Personal</small>
                 <small><b>FECHA:</b></small>
-                <small>Fecha: 12/08/2021</small>
+                <small>Fecha: 16/02/2023</small>
                 <small><b>TIPO:</b></small>
-                <small>Tipo: ESports</small>
+                <small>Tipo: Ecommerce</small>
                 <small><b>ENLACE:</b></small>
-                <small><a href="https://kthgaming-app.herokuapp.com/" target="_blank" rel="noopener">Presione aqui para visualizar el sitio.</a></small>
+                <small><a href="https://surf-media-lv9ecommerce.fgm97.online/" target="_blank" rel="noopener">Presione aqui para visualizar el sitio.</a></small>
             </aside>
             </div>
         </article>
@@ -263,17 +263,17 @@ if (isset($_POST["form"])){
             </svg>
         </a>
         <article class="portfolio-modal">
-            <img src="assets/leopold.png" alt="Trabajo 3">
+            <img src="assets/react-php.jpg" alt="Trabajo 3">
             <div class="portfolio-info">
-            <h3>Leopold</h3>
-            <p>Leopold es una red social semejante a Twitter y Mastodon, esta en desarrollo pero esta echa en Node.Js pero busco realizarla en ReactJS para poder obtener conocimientos y experiencia.</p>
+            <h3>API Rest con React</h3>
+            <p>Este proyecto realizamos un crud con un amigo siendo este uno de los primeros poyectos que realice en conjutno con otra persona, yo realice la API con PHP y MySQL, por otro lado mi compañero realizo el frontend con React.</p>
             <aside class="portfolio-details">
                 <small><b>CLIENTE:</b></small>
-                <small>Cliente: Proyecto propio</small>
+                <small>Cliente: Proyecto compartido</small>
                 <small><b>FECHA:</b></small>
-                <small>Fecha: 06/09/2021</small>
+                <small>Fecha: 10/11/2022</small>
                 <small><b>TIPO:</b></small>
-                <small>Tipo: Social Network</small>
+                <small>Tipo: Crud panel de administrador</small>
                 <small><b>ENLACE:</b></small>
                 <small><a href="https://leopold-app.herokuapp.com/" target="_blank" rel="noopener">Presione aqui para visualizar el sitio.</a></small>
             </aside>
