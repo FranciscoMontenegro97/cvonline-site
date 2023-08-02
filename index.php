@@ -285,7 +285,7 @@ if (isset($_POST["form"])){
                 <small><b>TIPO:</b></small>
                 <small>Tipo: Crud panel de administrador</small>
                 <small><b>ENLACE:</b></small>
-                <small><a href="https://leopold-app.herokuapp.com/" target="_blank" rel="noopener">Presione aqui para visualizar el sitio.</a></small>
+                <small><a href="https://api-php-react.fgm97.online/" target="_blank" rel="noopener">Presione aqui para visualizar el sitio.</a></small>
             </aside>
             </div>
         </article>
