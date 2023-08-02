@@ -198,6 +198,16 @@ if (isset($_POST["form"])){
                     </div>
                 </aside>
             </a>
+            <a href="#trabajo-4" class="portfolio-card">
+                <img src="assets/react-laravel.png" alt="Trabajo 4" style="height: 359px;">
+                <aside class="portfolio-card-info">
+                    <div>
+                        <h3>Todo List con React y Laravel</h3>
+                        <p>Este es un mini proyecto donde utilice una API Rest creada con Laravel y para el front React, esta en una etapa beta.</p>
+                        <p>Esta realizado con una API Rest con Laravel y con React.</p>
+                    </div>
+                </aside>
+            </a>
         </div>
     </section>
     <article class="modal" id="trabajo-1">
@@ -274,6 +284,33 @@ if (isset($_POST["form"])){
                 <small>Fecha: 10/11/2022</small>
                 <small><b>TIPO:</b></small>
                 <small>Tipo: Crud panel de administrador</small>
+                <small><b>ENLACE:</b></small>
+                <small><a href="https://api-php-react.fgm97.online/" target="_blank" rel="noopener">Presione aqui para visualizar el sitio.</a></small>
+            </aside>
+            </div>
+        </article>
+        </div>
+    </article>
+    <article class="modal" id="trabajo-4">
+        <div class="modal-content">
+        <a href="#cerrar" class="modal-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path
+                d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z" />
+            </svg>
+        </a>
+        <article class="portfolio-modal">
+            <img src="assets/react-laravel.png" alt="Trabajo 4">
+            <div class="portfolio-info">
+            <h3>Todo List con Laravel y React</h3>
+            <p>Este es un mini proyecto donde utilice una API Rest creada con Laravel y para el front React, esta en una etapa beta.</p>
+            <aside class="portfolio-details">
+                <small><b>CLIENTE:</b></small>
+                <small>Cliente: Proyecto de practica.</small>
+                <small><b>FECHA:</b></small>
+                <small>Fecha: 16/06/2023</small>
+                <small><b>TIPO:</b></small>
+                <small>Tipo: Lista de tareas.</small>
                 <small><b>ENLACE:</b></small>
                 <small><a href="https://leopold-app.herokuapp.com/" target="_blank" rel="noopener">Presione aqui para visualizar el sitio.</a></small>
             </aside>
